@@ -4,15 +4,9 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Mingi
-<<<<<<< HEAD
-middle_name: 
-last_name: Jeong
-email: mingi.jeong.gr@dartmouth.edu
-=======
 middle_name:
 last_name: Jeong
-email: you@example.com
->>>>>>> 05194a764d744b3bbcd3771b9a717609d231ee3c
+email: mingi.jeong.gr@dartmouth.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
