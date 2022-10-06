@@ -10,7 +10,7 @@
             <th scope="row">{{ item.year }}</th>
             <td>
               {% if item.inline %}
-                <b>{{ item.title }}</b> &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp; {{ item.where }}
+                <b>{{ item.title }}</b>, &nbsp; {{ item.where }}
                 {% if item.content != blank %}
                   - 
                 {% endif %}
