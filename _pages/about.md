@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: about # show the first word as capital (if changes)
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Reality and Robotics Lab, Department of Computer Science, Dartmouth College, USA
 
