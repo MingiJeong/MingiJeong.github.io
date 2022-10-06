@@ -120,9 +120,23 @@
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-          <div class="periodical">
+          <!-- <div class="periodical">
             {{ periodical | strip }}
-          </div>
+          </div> -->
+
+          <div class="periodical">
+            {% if entry.type == "article" %}
+              <em>{{entry.journal}}</em>
+            {% elsif entry.type == "inproceedings" %}
+              <em>In {{entry.booktitle}}</em>
+            {% endif %}
+            {% if entry.year %}
+              {{entry.year}}
+            {% endif %}
+            {%if entry.note %}
+              <br><h style="color:red"><b><i>{{entry.note}}</i></b></h>
+            {% endif %}
+            </div>
         {%- endif %}
         
           <!-- Links/Buttons -->
