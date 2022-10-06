@@ -1,80 +1,47 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Heterogeneous Robotic Water Quality Monitoring 
+description: Towards a Reliable Heterogeneous Robotic Water Quality Monitoring System--An Experimental Analysis
+img: assets/img/ISER-hetero/system-overview-final.png
+# redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+```
+This paper describes experiments that tested the effect of robotic movement on the reliability of aquatic sensor readings. It also demonstrates the utility of a heterogeneous system of robots to advance limnological monitoring and research.
+An Autonomous Surface Vehicle (ASV) and an underwater Remotely Operated Vehicle (ROV), both equipped with multiparameter water quality sondes, were deployed weekly in Lake Sunapee, NH, to collect routine measurements horizontally over the water surface and vertically in the water column, respectively.
+We then compared the robot-collected data with data from fixed underwater instrument platforms (buoys) outfitted with a complementary suite of sensors as well as manually collected samples. The question we are answering are as follows:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+* How do robotic motions affect water quality sensor response time?
+* How do water quality measurements compare between robots and fixed-location buoys?
+* How can robotic coverage paths best complement and extend monitoring data from discrete water samples (i.e., chlorophyll-a concentrations)?
+```
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ISER-hetero/system-overview-final.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ISER-hetero/turning.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ISER-hetero/path.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+ASV deployment at China Lake, ME on October 6, 2020. (a) Proprioceptive data of ASV. The red shaded areas indicate when ASV adjusted its heading to counteract external forces while following the NW direction. (b) Coverage paths and measurements of surface water chlorophyll (RFU) linearly interpolated across an area of 0.04km^2. The red tracks indicate the same time intervals as the shaded area in (a). The red arrow is the starting direction.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Here is a video I have presented at ISER2021.
+<p style="text-align: center;">
+<!-- youtube embedding -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/roFfrKvQ4nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
