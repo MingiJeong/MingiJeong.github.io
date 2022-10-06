@@ -233,6 +233,15 @@ blockquote {
   }
 }
 
+// MJ, honors
+.honors td {
+  color: var(--global-text-color);
+}
+
+.honors th {
+  color: var(--global-text-color);
+}
+
 #light-toggle {
   padding: 0;
   border: 0;

@@ -8,3 +8,9 @@
    1. Note that deploy and push both together will make it fail
    2. The branch in the Page setting of my github must be __gh-pages__.
    3. Pushing branch is a master
+
+## custom main page
+1. `_config.yml` add feature, e.g., honors and award
+2. `about` add feature
+3. edit `index.html`
+4. make a corresponding folder `_honors` and add `.md` files
