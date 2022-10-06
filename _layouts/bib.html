@@ -102,7 +102,10 @@
                 "
             >{{more_authors_hide}}</span>
           {%- endif -%}
-
+          
+          {% if entry.cofirst == "true" %}
+          <br><b>* These authors contributed equally to this work.</b>
+          {% endif %}
           </div>
 
           <!-- Journal/Book title and date -->
@@ -190,6 +193,9 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {% if entry.video %}
+          <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+        {% endif %}
           </div>
 
           {% if entry.abstract -%}
