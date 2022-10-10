@@ -22,3 +22,6 @@ https://www.deployhq.com/git/faqs/removing-large-files-from-git-history
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch assets/img/OCEANS-design/Catabot-gen2.gif' --prune-empty --tag-name-filter cat -- --all
 git push origin --force --all
 ```
+
+## removing footer
+`layout` `default` footer commented out
