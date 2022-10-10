@@ -15,3 +15,10 @@
 3. edit `index.html`
 4. make a corresponding folder `_honors` and add `.md` files
 5. `_base.scss` add ,change font
+
+## removing large files already commited
+https://www.deployhq.com/git/faqs/removing-large-files-from-git-history
+```
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch assets/img/OCEANS-design/Catabot-gen2.gif' --prune-empty --tag-name-filter cat -- --all
+git push origin --force --all
+```

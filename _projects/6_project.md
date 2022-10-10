@@ -38,5 +38,5 @@ The framework is based on a collaboration with Ari Chadda and Sea Machines Robot
     </div>
 </div>
 <div class="caption">
-    my custom-built clustering of LiDAR point clouds
+    my custom-built clustering of LiDAR point clouds and RADAR overlay
 </div>
