@@ -2,7 +2,7 @@
 layout: page
 title: Heterogeneous Robotic Water Quality Monitoring 
 description: Towards a Reliable Heterogeneous Robotic Water Quality Monitoring System--An Experimental Analysis
-img: assets/img/ISER-hetero/system-overview-final.png
+img: assets/img/ISER-hetero/iser2020-hetero-china-final.gif
 # redirect: https://unsplash.com
 importance: 3
 category: work
@@ -10,9 +10,20 @@ category: work
 
 
 ```
-This paper describes experiments that tested the effect of robotic movement on the reliability of aquatic sensor readings. It also demonstrates the utility of a heterogeneous system of robots to advance limnological monitoring and research.
-An Autonomous Surface Vehicle (ASV) and an underwater Remotely Operated Vehicle (ROV), both equipped with multiparameter water quality sondes, were deployed weekly in Lake Sunapee, NH, to collect routine measurements horizontally over the water surface and vertically in the water column, respectively.
-We then compared the robot-collected data with data from fixed underwater instrument platforms (buoys) outfitted with a complementary suite of sensors as well as manually collected samples. The question we are answering are as follows:
+This paper describes experiments that tested the effect of 
+robotic movement on the reliability of aquatic sensor readings. 
+It also demonstrates the utility of a heterogeneous 
+system of robots to advance limnological monitoring and research.
+An Autonomous Surface Vehicle (ASV) and 
+an underwater Remotely Operated Vehicle (ROV), both equipped 
+with multiparameter water quality sondes, were deployed weekly 
+in Lake Sunapee, NH, to collect routine measurements 
+horizontally over the water surface and vertically 
+in the water column, respectively.
+We then compared the robot-collected data with data 
+from fixed underwater instrument platforms (buoys) outfitted 
+with a complementary suite of sensors as well as 
+manually collected samples. The question we are answering are as follows:
 
 * How do robotic motions affect water quality sensor response time?
 * How do water quality measurements compare between robots and fixed-location buoys?

@@ -2,7 +2,7 @@
 layout: page
 title: Multiple obstacle avoidance
 description: Motion Attribute-based Clustering and Collision Avoidance of Multiple In-water Obstacles by Autonomous Surface Vehicle
-img: assets/img/MOA/proposed.png
+img: assets/img/MOA/moa-new-trial1_15,20,15.gif
 importance: 1
 category: work
 ---

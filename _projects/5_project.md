@@ -2,7 +2,7 @@
 layout: page
 title: Design and building of autonomous surface vehicle
 description: Catabot -- Autonomous Surface Vehicle with an Optimized Design for Environmental Monitoring
-img: assets/img/OCEANS-design/catabot.png
+img: assets/img/OCEANS-design/Catabot-gen2.gif
 # redirect: https://unsplash.com
 importance: 3
 category: work
@@ -39,6 +39,15 @@ hulls is the most optimal design, resulting in high-quality data collection.
 </div>
 <div class="caption">
     Overview of Catabot generation 2
+</div>
+
+<div class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/OCEANS-design/Catabot-gen2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Overview of Catabot generation 2 movement
 </div>
 
 

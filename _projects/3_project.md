@@ -2,7 +2,7 @@
 layout: page
 title: Near miss Obstacle Avoidance 
 description: Risk vector-based near miss and real-time obstacle avoidance for autonomous surface vehicles
-img: assets/img/risk-vec/head-on-ourmethod.png
+img: assets/img/risk-vec/experiment-result.gif
 # redirect: https://unsplash.com
 importance: 3
 category: work

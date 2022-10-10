@@ -2,7 +2,7 @@
 layout: page
 title: Obstacle detection by LiDAR
 description: Efficient LiDAR-based In-water Obstacle Detection and Segmentation by Autonomous Surface Vehicles in Aquatic Environments
-img: assets/img/LIDAR/beauty.png
+img: assets/img/LIDAR/lidar-ours-running.gif
 importance: 1
 category: work
 ---
