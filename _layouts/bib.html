@@ -5,7 +5,6 @@
         <div class="col-sm-2 {% if entry.preview and entry.abbr %}preview abbr{% elsif entry.preview %}preview{% else %}abbr{% endif %}">
           <!-- 1. preview and abbr both -->
           {%- if entry.preview and entry.abbr-%}
-          <div class="row">
             <!-- abbr first -->
             {%- if site.data.venues[entry.abbr] -%}
             {%- assign venue_style = nil -%}
@@ -16,15 +15,12 @@
             {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
             {%- endif -%}
-          </div>
           <!-- preview later -->
-          <div class="row">
             {% if entry.preview contains '://' -%}
               <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
               {%- else -%}
               <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
               {%- endif -%}     
-          </div>
           <!-- 2. preview only -->     
           {%- elsif entry.preview -%}
             {% if entry.preview contains '://' -%}
