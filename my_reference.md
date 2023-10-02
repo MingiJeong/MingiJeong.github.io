@@ -1,5 +1,10 @@
 # Manual
 
+## Install
+```
+docker-compose -f docker-local.yml up
+```
+
 ## procedure
 1. edit in a proper md file
 2. docker-compose up
