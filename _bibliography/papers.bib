@@ -5,53 +5,60 @@
 
 % gm-PhD
 @INPROCEEDINGS{jeong-gm-phd-iros-2023,
+  preview={gm-phdtracking.png},
   abbr={IROS},
   bibtex_show={true},
   selected={false},
   author={Perera, R.A. Thivanka and Jeong, Mingi and Li, Alberto Quattrini and Stegagno, Paolo},
-  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Accepted}, 
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), In Press}, 
   title={A GM-PHD Filter with Estimation of Probability of Detection and Survival for Individual Targets}, 
   year={2023},
   volume={},
   number={},
-  ___pages={1805-1812},
-  ___abstract={Navigation and obstacle avoidance in aquatic environments for autonomous surface vehicles (ASVs) in high-traffic maritime scenarios is still an open challenge, as the Convention  on  the  International  Regulations  for Preventing  Collisions  at  Sea (COLREGs) is not defined for multi-encounter situations. Current state-of-the-art methods resolve single-to-single encounters with sequential actions and assume that other obstacles follow COLREGs. Our work proposes a novel real-time non-myopic obstacle avoidance method, allowing an ASV that has only partial knowledge of the surroundings within the sensor radius to navigate in high-traffic maritime scenarios. Specifically, we achieve a holistic view of the feasible ASV action space able to avoid deadlock scenarios, by proposing (1) a clustering method based on motion attributes of other obstacles, (2) a geometric framework for identifying the feasible action space, and (3) a multi-objective optimization to determine the best action. Theoretical analysis and extensive realistic experiments in simulation considering real-world traffic scenarios demonstrate that our proposed real-time obstacle avoidance method is able to achieve safer trajectories than other state-of-the-art methods and that is robust to uncertainty present in the current information available to the ASV. },
-  ___video = {https://www.youtube.com/watch?v=a305lja1lfk&t=278s},
+  abstract={This paper proposes a modification of the Gaussian mixture probability hypothesis density (GM-PHD) filter to compute online the probability of detection (PD) and
+probability of survival (PS) of targets. This eliminates the need for predetermined and/or constant PD and PS values,
+that may degrade the estimation. The proposed filter estimates the PD and PS values for each individual target based on
+newly introduced parameters, which are updated during the measurement update process. The effectiveness of the proposed
+filter was validated through an in-lab experiment using four unmanned ground robots with varying PD values and a realworld lidar-based obstacle tracking system implemented on
+an Automated Surface Vehicle operating in a lake with realtime boat traffic. The results of the experiments demonstrate
+that the proposed filter outperforms the standard PHD filter with incorrect PD and PS values. These findings highlight the
+potential benefits of the proposed filter in improving target tracking performance in complex environments.},
 }
 
 
 % marcol vector
 @INPROCEEDINGS{jeong-marcol-aaai-2023,
+  preview={marcol-demo.gif},
   abbr={AAAI},
   bibtex_show={true},
   selected={false},
   author={Jeong, Mingi and Li, Alberto Quattrini},
-  booktitle={Proceedings of AAAI Conference on Artificial Intelligence, Accepted}, 
+  booktitle={Proceedings of AAAI Conference on Artificial Intelligence}, 
   title={MARCOL: A Maritime Collision Avoidance Decision-making Testbed}, 
   year={2023},
-  volume={},
+  volume={37(13)},
   number={},
-  ___pages={1805-1812},
-  ___abstract={Navigation and obstacle avoidance in aquatic environments for autonomous surface vehicles (ASVs) in high-traffic maritime scenarios is still an open challenge, as the Convention  on  the  International  Regulations  for Preventing  Collisions  at  Sea (COLREGs) is not defined for multi-encounter situations. Current state-of-the-art methods resolve single-to-single encounters with sequential actions and assume that other obstacles follow COLREGs. Our work proposes a novel real-time non-myopic obstacle avoidance method, allowing an ASV that has only partial knowledge of the surroundings within the sensor radius to navigate in high-traffic maritime scenarios. Specifically, we achieve a holistic view of the feasible ASV action space able to avoid deadlock scenarios, by proposing (1) a clustering method based on motion attributes of other obstacles, (2) a geometric framework for identifying the feasible action space, and (3) a multi-objective optimization to determine the best action. Theoretical analysis and extensive realistic experiments in simulation considering real-world traffic scenarios demonstrate that our proposed real-time obstacle avoidance method is able to achieve safer trajectories than other state-of-the-art methods and that is robust to uncertainty present in the current information available to the ASV. },
-  ___video = {https://www.youtube.com/watch?v=a305lja1lfk&t=278s},
+  abstract={Safe and efficient maritime navigation is fundamental for autonomous surface vehicles to support many applications in the blue economy, including cargo transportation that covers 90% of the global marine industry. We developed MARCOL, a collision avoidance decision-making framework that provides safe, efficient, and explainable collision avoidance strategies and that allows for repeated experiments under diverse high-traffic scenarios.},
+  pages={16452-16454},
+  video = {https://youtu.be/TiDPH9cXLiQ?si=lp-WOIQKGvcWrGmi},
 }
 
+% DUCK
 @INPROCEEDINGS{duck-aaai-2023,
+  preview={duck-demo.gif},
   abbr={AAAI},
   bibtex_show={true},
   selected={false},
   author={Deb, Tonmoay and Dix, J and Jeong, Mingi and Molinaro, C and Pugliese, A and Li, Alberto Quattrini and Santos, E. and Subrahmanian, VS and Yang, S. and Zhang, Y},
-  booktitle={Proceedings of AAAI Conference on Artificial Intelligence, Accepted}, 
+  booktitle={Proceedings of AAAI Conference on Artificial Intelligence}, 
   title={DUCK: A Drone-Urban Cyber-Defense Framework based on Pareto-Optimal Deontic Logic Agent}, 
   year={2023},
-  volume={},
+  volume={37(13)},
   number={},
-  ___pages={1805-1812},
-  ___abstract={Navigation and obstacle avoidance in aquatic environments for autonomous surface vehicles (ASVs) in high-traffic maritime scenarios is still an open challenge, as the Convention  on  the  International  Regulations  for Preventing  Collisions  at  Sea (COLREGs) is not defined for multi-encounter situations. Current state-of-the-art methods resolve single-to-single encounters with sequential actions and assume that other obstacles follow COLREGs. Our work proposes a novel real-time non-myopic obstacle avoidance method, allowing an ASV that has only partial knowledge of the surroundings within the sensor radius to navigate in high-traffic maritime scenarios. Specifically, we achieve a holistic view of the feasible ASV action space able to avoid deadlock scenarios, by proposing (1) a clustering method based on motion attributes of other obstacles, (2) a geometric framework for identifying the feasible action space, and (3) a multi-objective optimization to determine the best action. Theoretical analysis and extensive realistic experiments in simulation considering real-world traffic scenarios demonstrate that our proposed real-time obstacle avoidance method is able to achieve safer trajectories than other state-of-the-art methods and that is robust to uncertainty present in the current information available to the ASV. },
+  pages={16425-16427},
+  abstract={Drone based terrorist attacks are increasing daily. It is not expected to be long before drones are used to carry out terror attacks in urban areas. We have developed the DUCK multi-agent testbed that security agencies can use to simulate drone-based attacks by diverse actors and develop a combination of surveillance camera, drone, and cyber defenses against them.},
   ___video = {https://www.youtube.com/watch?v=a305lja1lfk&t=278s},
 }
-
-
 
 % MOA
 @INPROCEEDINGS{jeong-moa-2022,
@@ -68,7 +75,7 @@
   pages={6873-6880},
   doi={10.1109/IROS47612.2022.9981226},
   abstract={Navigation and obstacle avoidance in aquatic environments for autonomous surface vehicles (ASVs) in high-traffic maritime scenarios is still an open challenge, as the Convention  on  the  International  Regulations  for Preventing  Collisions  at  Sea (COLREGs) is not defined for multi-encounter situations. Current state-of-the-art methods resolve single-to-single encounters with sequential actions and assume that other obstacles follow COLREGs. Our work proposes a novel real-time non-myopic obstacle avoidance method, allowing an ASV that has only partial knowledge of the surroundings within the sensor radius to navigate in high-traffic maritime scenarios. Specifically, we achieve a holistic view of the feasible ASV action space able to avoid deadlock scenarios, by proposing (1) a clustering method based on motion attributes of other obstacles, (2) a geometric framework for identifying the feasible action space, and (3) a multi-objective optimization to determine the best action. Theoretical analysis and extensive realistic experiments in simulation considering real-world traffic scenarios demonstrate that our proposed real-time obstacle avoidance method is able to achieve safer trajectories than other state-of-the-art methods and that is robust to uncertainty present in the current information available to the ASV. },
-  video = {https://www.youtube.com/watch?v=a305lja1lfk&t=278s},
+  video = {https://www.youtube.com/watch?v=a305lja1lfk&t},
 }
 
 
@@ -83,9 +90,6 @@
   year={2022},
   volume={},
   number={},
-  ___pages={1805-1812},
-  ___abstract={Navigation and obstacle avoidance in aquatic environments for autonomous surface vehicles (ASVs) in high-traffic maritime scenarios is still an open challenge, as the Convention  on  the  International  Regulations  for Preventing  Collisions  at  Sea (COLREGs) is not defined for multi-encounter situations. Current state-of-the-art methods resolve single-to-single encounters with sequential actions and assume that other obstacles follow COLREGs. Our work proposes a novel real-time non-myopic obstacle avoidance method, allowing an ASV that has only partial knowledge of the surroundings within the sensor radius to navigate in high-traffic maritime scenarios. Specifically, we achieve a holistic view of the feasible ASV action space able to avoid deadlock scenarios, by proposing (1) a clustering method based on motion attributes of other obstacles, (2) a geometric framework for identifying the feasible action space, and (3) a multi-objective optimization to determine the best action. Theoretical analysis and extensive realistic experiments in simulation considering real-world traffic scenarios demonstrate that our proposed real-time obstacle avoidance method is able to achieve safer trajectories than other state-of-the-art methods and that is robust to uncertainty present in the current information available to the ASV. },
-  ___video = {https://www.youtube.com/watch?v=a305lja1lfk&t=278s},
   note={Best presentation paper award}
 }
 
@@ -192,6 +196,7 @@
 }
 
 @article{jeong-ocean-engineering-2019,
+  preview={risk-contour.jpg},
   abbr={OE},
   bibtex_show={true},
   selected={true},
