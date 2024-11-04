@@ -10,7 +10,7 @@ docker-compose -f docker-local.yml up
 2. docker-compose up (if not working -- gem fail, just do docker-compose -f docker-local.yml up)
 3. check in the local port localhost:8080
 4. stage and push to check it is uploaded on the website
-   1. Note that deploy and push both together will make it fail
+   1. Note that deploy and push both together will make it fail (with VScode)
    2. The branch in the Page setting of my github must be __gh-pages__.
    3. Pushing branch is a master
 
