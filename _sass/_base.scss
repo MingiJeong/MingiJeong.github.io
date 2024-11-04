@@ -107,12 +107,33 @@ blockquote {
   }
 }
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
-    .address {
-      p { display: block; }
-    }
+// @media (min-width: 576px) {
+//   .profile {
+//     width: 30%;
+//     .address {
+//       p { display: block; }
+//     }
+//   }
+// }
+
+// mobile phone compatibility
+@media (max-width: 576px) {
+  .publications ol.bibliography li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .publications ol.bibliography li .preview {
+    margin-bottom: 10px; /* Add space between the image and text */
+    max-width: 100%;     /* Ensure the image does not exceed the container */
+  }
+  
+  .publications ol.bibliography li .abbr,
+  .publications ol.bibliography li .title,
+  .publications ol.bibliography li .author,
+  .publications ol.bibliography li .links {
+    width: 100%;         /* Make text elements take full width */
+    text-align: left;    /* Align text to the left */
   }
 }
 
@@ -510,6 +531,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .preview {
+        margin-bottom: 10px; /* Add space between the image and text */
         width: 100%;
         min-width: 80px;
         max-width: 500px;
