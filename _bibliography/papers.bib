@@ -3,12 +3,15 @@
 
 @string{aps = {American Physical Society,}}
 
+
+% active learning paper
 @INPROCEEDINGS{jeong-iros-2024,
+  preview={active-3.gif},
   abbr={IROS},
   bibtex_show={true},
   selected={true},
-  author={Deb T., Jeong, Mingi, Chadda, Ari and Li, Alberto Quattrini},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), In press}, 
+  author={Jeong, Mingi and Chadda, Ari and Li, Alberto Quattrini},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Accepted and In press}, 
   title={Active Learning-augmented Intention-aware Obstacle Avoidance of Autonomous Surface Vehicles in High-traffic Waters}, 
   year={2024},
   volume={},
@@ -17,11 +20,27 @@
   video = {https://youtu.be/0W0d4MurzzA?si=leq1USl2cAtsgqzi},
 }
 
+% autonomous robot
+@INPROCEEDINGS{jeong-auro-2024,
+preview={auro-track.gif},
+  abbr={AURO},
+  bibtex_show={false},
+  selected={false},
+  author={Jeong, Mingi and Molinaro, Cristian and Deb, Tonmoay and Zhang, Youzhi and Pugliese, Andrea and Jr, Eugene Santos and Subrahmanian, VS and Li, Alberto Quattrini},
+  booktitle={Journal, Under review}, 
+  title={Multi-Object Active Search and Tracking by Multiple Agents in Untrusted, Dynamically Changing Environments}, 
+  year={2024},
+  volume={},
+  number={},
+}
+
+% deontic logic paper
 @INPROCEEDINGS{jeong-POSS-2024,
+  preview={highway.png},
   abbr={IEEETC},
   bibtex_show={true},
   selected={false},
-  author={Deb T., Jeong, Mingi, Molinaro, C., Quattrini Li, A., Pugliese, A., Santos, E., Subrahmanian, VS., Zhang, Y.},
+  author={Deb, Tonmoay and Jeong, Mingi and Molinaro, Cristian and Pugliese, Andrea and Li, Alberto Quattrini and Santos, Eugene and Subrahmanian, V. S. and Zhang, Youzhi},
   booktitle={IEEE Transactions on Cybernetics}, 
   title={Declarative Logic-based Pareto-Optimal Agent Decision Making}, 
   year={2024},
@@ -37,10 +56,11 @@
 
 % Kizito
 @INPROCEEDINGS{jeong-adaptive-2024,
+  preview={icra24_scenario.png},
   abbr={ICRA},
   bibtex_show={true},
   selected={false},
-  author={Masaba, Kizito, Roznere, Monika, Jeong, Mingi, Quattrini Li, Alberto},
+  author={Masaba, Kizito and Roznere, Monika and Jeong, Mingi and Quattrini Li, Alberto},
   booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={Persistent Monitoring of Large Environments with Robot Deployment Scheduling in between Remote Sensing Cycles}, 
   year={2024},
@@ -57,6 +77,23 @@ Our approach minimizes the number of days and locations for sampling, while pres
 Through simulation experiments using realistic spatio-temporal datasets, we demonstrate the benefits of our approach over traditional deployment strategies, 
 including significant savings on the effort and operational cost of deploying the ASVs.},
 }
+
+% icra workshop
+@article{jeong-dataset-icra-workshop-2024, 
+  preview={icra24-dataset.gif},
+  abbr={ICRA},
+  bibtex_show={true},
+  selected={false},
+  title={Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles}, 
+  url={http://arxiv.org/abs/2404.18411}, 
+  abstract={This paper introduces the first publicly accessible multi-modal perception dataset for autonomous maritime navigation, focusing on in-water obstacles within the aquatic environment to enhance situational awareness for Autonomous Surface Vehicles (ASVs). 
+  This dataset, consisting of diverse objects encountered under varying environmental conditions, aims to bridge the research gap in marine robotics by providing a multi-modal, annotated, and ego-centric perception dataset, for object detection and classification. We also show the applicability of the proposed dataset’s framework using deep learning-based open-source perception algorithms that have shown success. We expect that our dataset will contribute to development of the marine autonomy pipeline and marine (field) robotics. Please note this is a work-in-progress paper about our on-going research that we plan to release in full via future publication.}, 
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA) workshop on Field Robotics},
+  author={Jeong, Mingi and Chadda, Arihant and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Roznere, Monika and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel and Li, Alberto Quattrini}, 
+  year={2024}, 
+  note={Nominated to the Best Workshop Paper Award}
+}
+
 
 % gm-PhD
 @INPROCEEDINGS{jeong-gm-phd-iros-2023,
@@ -137,6 +174,7 @@ potential benefits of the proposed filter in improving target tracking performan
 
 % UKC
 @INPROCEEDINGS{jeong-UKC-2022,
+  preview={ukc-2022.gif},
   abbr={UKC},
   bibtex_show={true},
   selected={true},
@@ -266,7 +304,8 @@ potential benefits of the proposed filter in improving target tracking performan
   url = {https://www.sciencedirect.com/science/article/pii/S0029801818316093},
   author = {Mingi Jeong and Eun-Bang Lee and Moonjin Lee and Jung-Yeul Jung},
   keywords = {Multi-criteria, Navigational traffic risk, Risk contour, Ship route planning, Smart navigation},
-  abstract = {Route planning in maritime transportation is the key to safe, efficient, and smart navigation. We propose a multi-criteria route planning technique for operators to objectively determine the routes according to their intentions. In this study, the navigational traffic risk of a route is quantitatively assessed using a model of a ship. Then, a risk contour map is visualized by structuring the data as absolute danger, hazard factors, and influential factors, which is a framework for route planning. Finally, a multi-criteria route could be modeled by considering the safety, efficiency, convenience, and ability of navigation as the main criteria. The technique assesses each criterion by analyzing the cumulative risk per distance, distance, number of waypoints, and risk gradient of derived routes. In addition, the technique proposes routes by utilizing its algorithm and incorporating contour-based projection and reference points. To verify the proposed technique, we carried out numerical simulations and evaluated actual AIS data. The results show that this technique can not only suggest goal-oriented routes but also assess the used routes. Therefore, the proposed technique can improve the route planning method to be more systematic, which contributes both to smart navigation based on the user's purposes and to future autonomous navigation.}
+  abstract = {Route planning in maritime transportation is the key to safe, efficient, and smart navigation. We propose a multi-criteria route planning technique for operators to objectively determine the routes according to their intentions. In this study, the navigational traffic risk of a route is quantitatively assessed using a model of a ship. Then, a risk contour map is visualized by structuring the data as absolute danger, hazard factors, and influential factors, which is a framework for route planning. Finally, a multi-criteria route could be modeled by considering the safety, efficiency, convenience, and ability of navigation as the main criteria. The technique assesses each criterion by analyzing the cumulative risk per distance, distance, number of waypoints, and risk gradient of derived routes. In addition, the technique proposes routes by utilizing its algorithm and incorporating contour-based projection and reference points. To verify the proposed technique, we carried out numerical simulations and evaluated actual AIS data. The results show that this technique can not only suggest goal-oriented routes but also assess the used routes. Therefore, the proposed technique can improve the route planning method to be more systematic, which contributes both to smart navigation based on the user's purposes and to future autonomous navigation.},
+  note={Furture ocean technologists award}
 }
 
 @article{risk-assessment-hns,
@@ -301,12 +340,13 @@ potential benefits of the proposed filter in improving target tracking performan
 }
 
 @article{patent-korea,
- abbr={PATENT},
- selected={true},
- title={A Technique to Plan a Route Based on Risk Contour Mapping},
- author = {Eun-Bang Lee and Mingi Jeong and and Moonjin Lee},
- year={2020},
- journal={10-2185782 Korea Patent}
+  preview={patent-2020.jpg},
+  abbr={PATENT},
+  selected={true},
+  title={A Technique to Plan a Route Based on Risk Contour Mapping},
+  author = {Eun-Bang Lee and Mingi Jeong and and Moonjin Lee},
+  year={2020},
+  journal={10-2185782 Korea Patent}
 }
 
 @INPROCEEDINGS{iain-2018,
