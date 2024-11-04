@@ -537,7 +537,13 @@ footer.sticky-bottom {
         max-width: 500px;
       }
       .abbr {
-        height: 2rem;
+        // height: 2rem;
+        @media(max-width 768 px) {
+          img.preview {
+            max-height: 7 rem;
+            object-fit: contain;
+          }
+        }
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
