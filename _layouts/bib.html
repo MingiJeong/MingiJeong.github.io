@@ -17,16 +17,16 @@
             {%- endif -%}
           <!-- preview later -->
             {% if entry.preview contains '://' -%}
-              <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+              <img class="preview z-depth-1 rounded img-fluid" src="{{ entry.preview }}">
               {%- else -%}
-              <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+              <img class="preview z-depth-1 rounded img-fluid" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
               {%- endif -%}     
           <!-- 2. preview only -->     
           {%- elsif entry.preview -%}
             {% if entry.preview contains '://' -%}
-            <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+            <img class="preview z-depth-1 rounded img-fluid" src="{{ entry.preview }}">
             {%- else -%}
-            <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+            <img class="preview z-depth-1 rounded img-fluid" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
             {%- endif -%}
           <!-- 3. abbr only -->
           {%- elsif entry.abbr -%}
