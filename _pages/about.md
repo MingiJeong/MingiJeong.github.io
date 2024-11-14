@@ -19,7 +19,7 @@ scholarships: true
 
 ---
 
-I am Mingi Jeong, and I would like to be an enthusiastic, devoted expert in __Computer Science (Robotics)__ and __Ocean Engineering__ who will contribute to global society. 
+I am Mingi Jeong, and I would like to be an enthusiastic, devoted expert in __Computer Science (Robotics)__, __Artificial Intelligence__ and __Ocean Engineering__ who will contribute to global society. 
 
 I am a Ph.D. candidate of the Department of Computer Science at [Dartmouth College](https://home.dartmouth.edu/), USA. I am a member of [Reality and Robotics Lab](https://rlab.cs.dartmouth.edu/home/) and am working with [Prof. Alberto Quattrini Li](https://rlab.cs.dartmouth.edu/albertoq/). Before that, I served on ocean-going commercial vessels (LNG tanker, container vessel) for 5 years as a __Chief Officer__ (final rank) in [Hyundai Merchant Marine Co.,Ltd.](http://www.hmm21.com/cms/company/engn/index.jsp) under the connected service with the Korean Navy. I received a B.S in Nautical Science and a M.E in Maritime Safety Engineering from [Korea Maritime and Ocean University](https://www.kmou.ac.kr/english/main.do), working with [Prof. Eunbang Lee](https://www.kmou.ac.kr/mp/cm/cntnts/cntntsView.do?mi=2062&cntntsId=701). During a cadet period, I was an exchange student and Indoctrination Officer (IDO) in [SUNY Maritime College](https://www.sunymaritime.edu/) as the U.S. Coast Guard licensing regimental system, fully sponsored by [Rotary International](https://www.rotary.org/en)'s Ambassadorial scholar.
 
@@ -28,15 +28,26 @@ By utilizing my professional background and skill-set obtained from a fulfilling
 
 <!-- I am mainly focuses on marine autonomy by surface vehicles. I study design platform, situational awareness, and obstacle avoidance algorithms of robotic boats through __interdisciplinary research__ to contribute to safe and efficient autonomous navigation in real-world environments.  -->
  
-__Research interest__:
-* Autonomous navigation
+<a href="" style="color: #009f06; text-decoration: underline;">Research Interest</a>
+
+How can we create ***persistent and robust robot decision-making systems*** capable of functioning in ***complex, unstructured environments*** where intelligent systems can have a profound societal impact in areas such as environmental monitoring, search and rescue, and cargo or passenger transportation? 
+
+I am passionate about investigating:
 * Aquatic Robot
+* Full stack autonomy
+* Autonomous navigation
 * Obstacle detection and tracking
 * Obstacle avoidance
-* Motion planning
-* Decision-making
+* Topological planning
+* Intention-aware collision avoidance, Learning-augmented planner
+* Multi-criteria decision-making, Pareto-optimality
 * Multi-robot system
 * Environmental monitoring
 * Optimized design and building
+
+<!-- Marine Robot, Full stack autonomy, Autonomous navigation, Autonomous Surface Vehicle, In-water obstacle detection and tracking, Obstacle avoidance, Topological (homotopy) planning, Intention-aware collision avoidance, Learning-augmented planner, Multi-robot system, Multi-criteria decision-making, Pareto-optimality, Environmental monitoring, Optimized design and building, Reliance-aware sensor fusion_ -->
+
+
+
 
 

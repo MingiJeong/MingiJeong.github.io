@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2024-07-02 07:59:00-0400
+date: 2024-09-29 07:59:00-0400
 inline: true
 ---
 
-I gave an invited talk about `Towards Full Pipeline Maritime Autonomy by Autonomous Surface Vehicle under Challenging and Uncertain Environments` at
-The 3rd Marine and Fisheries Science and Technology Innovation Forum (*AI and Futuristic Ships*) with over **400** participants, organized by Ministry of Oceans and Fisheries and Korea Institute of Marine Science. [Youtube](https://youtu.be/6AC5WiF7jn8?si=rARNsumduSzOfdZK)
+I was selected as an oral speaker among over 100 submissions at Northeast Robotics Colloquium (NERC) [Link](https://www.umass.edu/robotics/nerc2024/schedule#:~:text=2%3A10PM%3A%20Active%20Learning%2Daugmented%20Intent%2Daware%20Obstacle%20Avoidance%20of%20Autonomous%20Surface%20Vehicles%20in%20High%2Dtraffic%20Waters%C2%A0Mingi%20Jeong%2C%20Dartmouth%20College)
