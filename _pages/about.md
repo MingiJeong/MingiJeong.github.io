@@ -2,7 +2,7 @@
 layout: about
 title: about # show the first word as capital (if changes)
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Reality and Robotics Lab, Department of Computer Science, Dartmouth College, USA
+subtitle: <b>Affiliations</b>. Reality and Robotics Lab, Department of Computer Science, Dartmouth College, USA
 
 profile:
   align: right
@@ -16,6 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 honors: true # includes honors (if true)
 scholarships: true
+research: true # include projects
 
 ---
 
@@ -28,7 +29,8 @@ By utilizing my professional background and skill-set obtained from a fulfilling
 
 <!-- I am mainly focuses on marine autonomy by surface vehicles. I study design platform, situational awareness, and obstacle avoidance algorithms of robotic boats through __interdisciplinary research__ to contribute to safe and efficient autonomous navigation in real-world environments.  -->
  
-<a href="" style="color: #009f06; text-decoration: underline;">Research Interest</a>
+
+<h2><b>Research Interest </b></h2>
 
 How can we create ***persistent and robust robot decision-making systems*** capable of functioning in ***complex, unstructured environments*** where intelligent systems can have a profound societal impact in areas such as environmental monitoring, search and rescue, and cargo or passenger transportation? 
 

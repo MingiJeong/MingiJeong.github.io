@@ -5,7 +5,7 @@ permalink: /projects/
 description: I am mainly focusing on marine autonomy by surface vehicles. I study design platform, situational awareness, and obstacle avoidance algorithms of robotic boats through interdisciplinary research to contribute to safe and efficient autonomous navigation in real-world environments.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 

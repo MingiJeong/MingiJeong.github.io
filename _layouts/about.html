@@ -39,7 +39,10 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
-
+          <!-- projects -->
+          {% if page.research %}
+            {% include research.html %}
+          {% endif %}
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}
