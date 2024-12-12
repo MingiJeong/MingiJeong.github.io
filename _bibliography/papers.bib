@@ -1,0 +1,413 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+% active learning paper
+@INPROCEEDINGS{jeong-tfr-2024,
+  preview={t-fr-busan.gif},
+  abbr={T-FR},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, *Mingi and Chadda, *Ari and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel and Roznere, Monika and Li, Alberto Quattrini},
+  booktitle={IEEE Transaction on Field Robotics (T-FR), Under Review -- invited for a Special Issue of ICRA}, 
+  title={SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles}, 
+  year={2024},
+  volume={},
+  number={},
+  abstract={This paper introduces the first publicly accessible labeled multi-modal perception dataset for autonomous maritime navigation, focusing on in-water obstacles within the aquatic environment to enhance situational awareness for Autonomous Surface Vehicles (ASVs). This dataset, collected over 4 years and consisting of diverse objects encountered under varying environmental conditions, aims to bridge the research gap in autonomous surface vehicles by providing a multi- modal, annotated, and ego-centric perception dataset, for object detection and classification. We also show the applicability of the proposed dataset by training deep learning-based open-source perception algorithms that have shown success. We expect that our dataset will contribute to development of the marine autonomy pipelines and marine (field) robotics.},
+  website = {https://seepersea.github.io/},
+  cofirst = {true}
+}
+
+
+% active learning paper
+@INPROCEEDINGS{jeong-iros-2024,
+  preview={active-3.gif},
+  abbr={IROS},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, Mingi and Chadda, Ari and Li, Alberto Quattrini},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Accepted and In press}, 
+  title={Active Learning-augmented Intention-aware Obstacle Avoidance of Autonomous Surface Vehicles in High-traffic Waters}, 
+  year={2024},
+  volume={},
+  number={},
+  abstract={This paper addresses the obstacle avoidance of Autonomous Surface Vehicles (ASVs) for safe navigation in high-traffic waters while ensuring an active state estimation of obstacle's passing intent and reducing its uncertainty. We introduce a topological modeling of passing intent of obstacles, which can be applied to varying encounter situations based on the inherent embedding of topological concepts in COLREGs. With a Long Short-Term Memory (LSTM) neural network, we classify the passing intent of obstacles. Then, for determining the ASV maneuver, we propose a multi-objective optimization framework including information gain about the passing obstacle intent and safety. We validate the proposed approach under extensive Monte Carlo simulations (2,400 runs) with a varying number of obstacles, dynamic properties, encounter situations, and different behavioral patterns of obstacles (cooperative, non-cooperative). We also present the results from a real marine accident case study as well as real-world experiments of a real ASV with environmental disturbances, showing successful collision avoidance with our strategy in real-time.},
+  video = {https://youtu.be/0W0d4MurzzA?si=leq1USl2cAtsgqzi},
+}
+
+% autonomous robot
+@INPROCEEDINGS{jeong-auro-2024,
+preview={auro-track.gif},
+  abbr={AURO},
+  bibtex_show={false},
+  selected={false},
+  author={Jeong, Mingi and Molinaro, Cristian and Deb, Tonmoay and Zhang, Youzhi and Pugliese, Andrea and Jr, Eugene Santos and Subrahmanian, VS and Li, Alberto Quattrini},
+  booktitle={Journal, Under review}, 
+  title={Multi-Object Active Search and Tracking by Multiple Agents in Untrusted, Dynamically Changing Environments}, 
+  year={2024},
+  volume={},
+  number={},
+}
+
+% deontic logic paper
+@INPROCEEDINGS{jeong-POSS-2024,
+  preview={highway.png},
+  abbr={IEEETC},
+  bibtex_show={true},
+  selected={false},
+  author={Deb, Tonmoay and Jeong, Mingi and Molinaro, Cristian and Pugliese, Andrea and Li, Alberto Quattrini and Santos, Eugene and Subrahmanian, V. S. and Zhang, Youzhi},
+  booktitle={IEEE Transactions on Cybernetics}, 
+  title={Declarative Logic-based Pareto-Optimal Agent Decision Making}, 
+  year={2024},
+  volume={},
+  number={},
+  doi={10.1109/TCYB.2024.3394316},
+  abstract={There are many applications where an autonomous agent can perform many sets of actions. 
+  It must choose one set based on some behavioral constraints on the agent. Past work has used a deontic logic based framework to declaratively express such constraints in logic, 
+  and developed the concept of a feasible status set (FSS), a set of actions that satisfy these constraints. However, multiple FSSs may exist and  an agent needs to choose one in order to act. 
+  As there may be many different ways of evaluating status sets, we propose the concept of Pareto-optimal feasible status sets or POSS.  We show that the problem of checking if a status set is a POSS is co-NP-hard. 
+  We develop an algorithm to find a POSS. In the special case when the objective functions are monotonic (or anti-monotonic), we develop more efficient algorithms to compute a POSS. Finally, we run experiments to show the efficacy of our approach and we discuss possible ways to handle multiple Pareto-optimal Status Sets.}
+}
+
+% Kizito
+@INPROCEEDINGS{jeong-adaptive-2024,
+  preview={icra24_scenario.png},
+  abbr={ICRA},
+  bibtex_show={true},
+  selected={false},
+  author={Masaba, Kizito and Roznere, Monika and Jeong, Mingi and Quattrini Li, Alberto},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Persistent Monitoring of Large Environments with Robot Deployment Scheduling in between Remote Sensing Cycles}, 
+  year={2024},
+  volume={},
+  number={},
+  doi={10.1109/ICRA57147.2024.10611421},
+  abstract={This paper proposes a novel decision-making framework for planning ``when'' and ``where'' to deploy robots based on prior data with the goal of persistently monitoring a spatio-temporal phenomenon in an environment. 
+  We specifically focus on large lake monitoring, where remote sensors, such as satellites, can provide a snapshot of the target phenomenon at regular cycles. 
+  Between these cycles, Autonomous Surface Vehicles (ASVs) can be deployed to maintain an up-to-date model of the phenomenon. 
+  However, deploying ASVs has a significant logistical overhead in terms of time and cost. It requires a team of people to go on site and spend typically a day to monitor the deployment. 
+  It is vital to not only be intentional about where to sample in the environment on a given day, but also determine the worth of deploying the ASVs that day at all.
+Therefore, we propose a persistent monitoring strategy that provides the days and locations of when and where to sample with the robots by leveraging Gaussian Process model estimates of future trends based on collected remote sensing and point measurement data.
+Our approach minimizes the number of days and locations for sampling, while preserving the quality of estimates. 
+Through simulation experiments using realistic spatio-temporal datasets, we demonstrate the benefits of our approach over traditional deployment strategies, 
+including significant savings on the effort and operational cost of deploying the ASVs.},
+}
+
+% icra workshop
+@article{jeong-dataset-icra-workshop-2024, 
+  preview={icra24-dataset.gif},
+  abbr={ICRA},
+  bibtex_show={true},
+  selected={false},
+  title={Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles}, 
+  url={http://arxiv.org/abs/2404.18411}, 
+  abstract={This paper introduces the first publicly accessible multi-modal perception dataset for autonomous maritime navigation, focusing on in-water obstacles within the aquatic environment to enhance situational awareness for Autonomous Surface Vehicles (ASVs). 
+  This dataset, consisting of diverse objects encountered under varying environmental conditions, aims to bridge the research gap in marine robotics by providing a multi-modal, annotated, and ego-centric perception dataset, for object detection and classification. We also show the applicability of the proposed dataset’s framework using deep learning-based open-source perception algorithms that have shown success. We expect that our dataset will contribute to development of the marine autonomy pipeline and marine (field) robotics. Please note this is a work-in-progress paper about our on-going research that we plan to release in full via future publication.}, 
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA) workshop on Field Robotics},
+  author={Jeong, Mingi and Chadda, Arihant and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Roznere, Monika and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel and Li, Alberto Quattrini}, 
+  year={2024}, 
+  note={Nominated to the Best Workshop Paper Award}
+}
+
+
+% gm-PhD
+@INPROCEEDINGS{jeong-gm-phd-iros-2023,
+  preview={gm-phdtracking.png},
+  abbr={IROS},
+  bibtex_show={true},
+  selected={false},
+  author={Perera, R.A. Thivanka and Jeong, Mingi and Quattrini Li, Alberto and Stegagno, Paolo},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={A GM-PHD Filter with Estimation of Probability of Detection and Survival for Individual Targets}, 
+  year={2023},
+  volume={},
+  number={},
+  doi={10.1109/IROS55552.2023.10342438},
+  abstract={This paper proposes a modification of the Gaussian mixture probability hypothesis density (GM-PHD) filter to compute online the probability of detection (PD) and
+probability of survival (PS) of targets. This eliminates the need for predetermined and/or constant PD and PS values,
+that may degrade the estimation. The proposed filter estimates the PD and PS values for each individual target based on
+newly introduced parameters, which are updated during the measurement update process. The effectiveness of the proposed
+filter was validated through an in-lab experiment using four unmanned ground robots with varying PD values and a realworld lidar-based obstacle tracking system implemented on
+an Automated Surface Vehicle operating in a lake with realtime boat traffic. The results of the experiments demonstrate
+that the proposed filter outperforms the standard PHD filter with incorrect PD and PS values. These findings highlight the
+potential benefits of the proposed filter in improving target tracking performance in complex environments.},
+}
+
+
+% marcol vector
+@INPROCEEDINGS{jeong-marcol-aaai-2023,
+  preview={marcol-demo.gif},
+  abbr={AAAI},
+  bibtex_show={true},
+  selected={false},
+  author={Jeong, Mingi and Li, Alberto Quattrini},
+  booktitle={Proceedings of AAAI Conference on Artificial Intelligence}, 
+  title={MARCOL: A Maritime Collision Avoidance Decision-making Testbed}, 
+  year={2023},
+  volume={37(13)},
+  number={},
+  abstract={Safe and efficient maritime navigation is fundamental for autonomous surface vehicles to support many applications in the blue economy, including cargo transportation that covers 90% of the global marine industry. We developed MARCOL, a collision avoidance decision-making framework that provides safe, efficient, and explainable collision avoidance strategies and that allows for repeated experiments under diverse high-traffic scenarios.},
+  pages={16452-16454},
+  video = {https://youtu.be/TiDPH9cXLiQ?si=lp-WOIQKGvcWrGmi},
+}
+
+% DUCK
+@INPROCEEDINGS{duck-aaai-2023,
+  preview={duck-demo.gif},
+  abbr={AAAI},
+  bibtex_show={true},
+  selected={false},
+  author={Deb, Tonmoay and Dix, J and Jeong, Mingi and Molinaro, C and Pugliese, A and Li, Alberto Quattrini and Santos, E. and Subrahmanian, VS and Yang, S. and Zhang, Y},
+  booktitle={Proceedings of AAAI Conference on Artificial Intelligence}, 
+  title={DUCK: A Drone-Urban Cyber-Defense Framework based on Pareto-Optimal Deontic Logic Agent}, 
+  year={2023},
+  volume={37(13)},
+  number={},
+  pages={16425-16427},
+  abstract={Drone based terrorist attacks are increasing daily. It is not expected to be long before drones are used to carry out terror attacks in urban areas. We have developed the DUCK multi-agent testbed that security agencies can use to simulate drone-based attacks by diverse actors and develop a combination of surveillance camera, drone, and cyber defenses against them.},
+  ___video = {https://www.youtube.com/watch?v=a305lja1lfk&t=278s},
+}
+
+% MOA
+@INPROCEEDINGS{jeong-moa-2022,
+  preview={moa-new-trial1_15,20,15.gif},
+  abbr={IROS},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, Mingi and Li, Alberto Quattrini},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Motion Attribute-Based Clustering and Collision Avoidance of Multiple In-Water Obstacles by Autonomous Surface Vehicle}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={6873-6880},
+  doi={10.1109/IROS47612.2022.9981226},
+  abstract={Navigation and obstacle avoidance in aquatic environments for autonomous surface vehicles (ASVs) in high-traffic maritime scenarios is still an open challenge, as the Convention  on  the  International  Regulations  for Preventing  Collisions  at  Sea (COLREGs) is not defined for multi-encounter situations. Current state-of-the-art methods resolve single-to-single encounters with sequential actions and assume that other obstacles follow COLREGs. Our work proposes a novel real-time non-myopic obstacle avoidance method, allowing an ASV that has only partial knowledge of the surroundings within the sensor radius to navigate in high-traffic maritime scenarios. Specifically, we achieve a holistic view of the feasible ASV action space able to avoid deadlock scenarios, by proposing (1) a clustering method based on motion attributes of other obstacles, (2) a geometric framework for identifying the feasible action space, and (3) a multi-objective optimization to determine the best action. Theoretical analysis and extensive realistic experiments in simulation considering real-world traffic scenarios demonstrate that our proposed real-time obstacle avoidance method is able to achieve safer trajectories than other state-of-the-art methods and that is robust to uncertainty present in the current information available to the ASV. },
+  video = {https://www.youtube.com/watch?v=a305lja1lfk&t},
+}
+
+
+% UKC
+@INPROCEEDINGS{jeong-UKC-2022,
+  preview={ukc-2022.gif},
+  abbr={UKC},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, Mingi and Roznere, Monika and Masaba, Kizito and Chadda, Ari and Li, Alberto Quattrini},
+  booktitle={UKC (US-Korea Conference), Virginia, USA}, 
+  title={Towards Full Pipeline Development of Decision-making for Autonomous Surface Vehicles in Challenging Aquatic Environments}, 
+  year={2022},
+  volume={},
+  number={},
+  note={Best presentation paper award}
+}
+
+
+@INPROCEEDINGS{iros-lidar-detection-2021,
+  preview={lidar-ours-running.gif},
+  abbr={IROS},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, Mingi and Li, Alberto Quattrini},
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Efficient LiDAR-based In-water Obstacle Detection and Segmentation by Autonomous Surface Vehicles in Aquatic Environments}, 
+  abstract={Identifying in-water obstacles is fundamental for safe navigation of Autonomous Surface Vehicles (ASVs). This paper presents a model-free method for segmenting individual in-water objects (e.g., swimmers, buoys, boats) and shorelines from LiDAR sensor data. To reduce the computational requirement, our method first converts the 3D point cloud into a 2D spherical projection image. Then, an algorithm based on the integration of a breadth-first search and a variant of a hierarchical agglomerative clustering segments the points according to different objects. Our method addresses the sparsity and instability of the point cloud in the aquatic domain – a characteristic that makes the methods developed for self-driving cars not directly applicable for in-water obstacle segmentation, as demonstrated in our experiments. Our method is compared with other state-of-the-art approaches and is validated both in simulation and in real-world ASV deployments, with different objects and encountering scenarios. The proposed method is effective in segmenting in-water obstacles not known a priori, in real-time, outperforming other state-of-the art methods.},
+  year={2021},
+  volume={},
+  number={},
+  pages={5387-5394},
+  doi={10.1109/IROS51168.2021.9636028},
+  video = {https://www.youtube.com/watch?v=V9w549rVkdI},
+}
+
+% ISER
+@inproceedings{iser-2021,
+  preview={iser2020-hetero-china-final-crop.gif},
+  abbr={ISER},
+  bibtex_show={true},
+  selected={true},
+  abstract = {This paper describes experiments that tested the effect of robotic movement on the reliability of aquatic sensor readings. It also demonstrates the utility of a heterogeneous system of robots to advance limnological monitoring and research.},
+  address = {Cham},
+  author = {Roznere, *Monika and Jeong, *Mingi and Maechling, Lily and Ward, Nicole K and Brentrup, Jennifer A and Steele, Bethel and Bruesewitz, Denise A and Ewing, Holly A and Weathers, Kathleen C and Cottingham, Kathryn L and {Quattrini Li}, Alberto},
+  booktitle = {Experimental Robotics},
+  editor = {Siciliano, Bruno and Laschi, Cecilia and Khatib, Oussama},
+  isbn = {978-3-030-71151-1},
+  pages = {139--150},
+  publisher = {Springer International Publishing},
+  title = {{Towards a Reliable Heterogeneous Robotic Water Quality Monitoring System: An Experimental Analysis}},
+  year = {2021},
+  video = {https://www.youtube.com/watch?v=roFfrKvQ4nw},
+  cofirst = {true}
+}
+
+@INPROCEEDINGS{iros-risk-vector-2020,
+  preview={risk-vec-experiment-result.gif},
+  abbr={IROS},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, Mingi and Li, Alberto Quattrini},
+  booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Risk Vector-based Near miss Obstacle Avoidance for Autonomous Surface Vehicles},
+  abstract={This paper presents a novel risk vector-based near miss prediction and obstacle avoidance method. The proposed method uses the sensor readings about the pose of the other obstacles to infer their motion model (velocity and heading) and, accordingly, adapt the risk assessment and take corrective actions if necessary. Relative vector calculations allow the method to perform in real-time. The algorithm has 1.68 times faster computation performance with less change of motion than other methods and it enables a robot to avoid 25 obstacles in a congested area. Fallback behaviors are also proposed in case of faulty sensors or situation changes. Simulation experiments with parameters inferred from experiments in the ocean with our custom-made robotic boat show the flexibility and adaptability of the proposed method to many obstacles present in the environment. Results highlight more efficient trajectories and comparable safety as other state-of-the-art methods, as well as robustness to failures.}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1805-1812},
+  doi={10.1109/IROS45743.2020.9341105},
+  video = {https://www.youtube.com/watch?v=lIEZ975GsdY},
+  }
+
+@INPROCEEDINGS{oceans-catabot-2020,
+  preview={gen2-running.gif},
+  abbr={OCEANS},
+  bibtex_show={true},
+  selected={true},
+  author={Jeong, Mingi and Roznere, Monika and Lensgraf, Samuel and Sniffen, Amy and Balkcom, Devin and Li, Alberto Quattrini},
+  booktitle={Global Oceans 2020: Singapore – U.S. Gulf Coast}, 
+  title={Catabot: Autonomous Surface Vehicle with an Optimized Design for Environmental Monitoring}, 
+  abstract={This paper presents an optimized design of research-oriented ASVs and a systematic design evaluation methodology for reliable in-water sensing. The objective is to minimize the interference on sensor readings by any ASV maneuver. The design space includes motors and sensors locations. In addition, this paper analyzes modularity - i.e., the effects of new sensor's installation. All prototype designs are thoroughly tested using hydrostatic analyses, Computational Fluid Dynamics (CFD) simulations, and real-world field testings. Quantitative metrics, including trim, pitch, velocity magnitude of flow, and turbulence, are used to compare different configurations. Our experiments show that a motor configuration at the back part of the straights hulls is the most optimal design, resulting in high-quality data collection.},
+  year={2020},
+  volume={},
+  number={},
+  pages={1-9},
+  doi={10.1109/IEEECONF38699.2020.9389391},
+  note={Student poster competition: selected top 20 submissions supporing entire travel expenses including flight, lodging, registration},
+  __video = {https://www.youtube.com/watch?v=lIEZ975GsdY},  
+  }
+
+
+@INPROCEEDINGS{oceans-risk-viz-2019,
+  abbr={OCEANS},
+  bibtex_show={true},
+  author={Jeong, Mingi and Lee, Eun-Bang and Park, Young-Soo and Li, Alberto Quattrini},
+  booktitle={OCEANS 2019 MTS/IEEE SEATTLE}, 
+  title={A Risk Visualization Technique based on Static and Dynamic Data for Maritime Mobility}, 
+  abstract={Assessment of risk during ship navigation is essential to safe maritime transportation. This paper proposes a novel real-time method, specifically tailored for a human operator onboard a ship, to attain situational awareness of multiple static and dynamic obstacles. The proposed method is based on risk vectors to encode the direction and the probability of collision represented by a bivariate Gaussian distribution, which allows the operator to visualize the risk in a more effective way than conventional scalar methods. We implemented a proof-of-concept in MATLAB and performed some numerical experiments with different configurations - e.g., type and number of obstacles, direction of encountering - showing real-time visualization that can help operators to take more informed decisions, as well as the cumulative risk of a path.},
+  year={2019},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.23919/OCEANS40490.2019.8962405}
+}
+
+@INPROCEEDINGS{oceans-adaptive-2018,
+  abbr={OCEANS},
+  bibtex_show={true},
+  author={Jeong, Mingi and Lee, Eun-Bang and Lee, Moonjin},
+  booktitle={OCEANS 2018 MTS/IEEE Charleston}, 
+  title={An Adaptive Route Plan Technique with Risk Contour for Autonomous Navigation of Surface Vehicles}, 
+  abstract={This study develops a new technique for an adaptive route plan that realizes autonomous navigation by surface vehicles at sea by utilizing real-time data. Prior to the application of the methodology, our technique assesses and visualizes maritime traffic risk as the foundation for the route planning of an Autonomous Surface Vehicles (ASVs). Based on the risk contour map and the ASV's data processing, the algorithm that proposes routes which match the desired objects according to the operator's input, was developed. This methodology was applied and evaluated for verification by planning adaptive routes and analyzing maritime traffic accidents as case studies. The results demonstrate that the technique is useful as it enables an ASV to quantitatively and automatically adapt its route to fit the real-time situation, and for applications to be further broadened to diverse areas.},
+  year={2018},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={10.1109/OCEANS.2018.8604638}
+}
+
+@article{jeong-ocean-engineering-2019,
+  preview={risk-contour.jpg},
+  abbr={OE},
+  bibtex_show={true},
+  selected={true},
+  title = {Multi-criteria route planning with risk contour map for smart navigation},
+  journal = {Ocean Engineering},
+  volume = {172},
+  pages = {72-85},
+  year = {2019},
+  issn = {0029-8018},
+  doi = {https://doi.org/10.1016/j.oceaneng.2018.11.050},
+  url = {https://www.sciencedirect.com/science/article/pii/S0029801818316093},
+  author = {Mingi Jeong and Eun-Bang Lee and Moonjin Lee and Jung-Yeul Jung},
+  keywords = {Multi-criteria, Navigational traffic risk, Risk contour, Ship route planning, Smart navigation},
+  abstract = {Route planning in maritime transportation is the key to safe, efficient, and smart navigation. We propose a multi-criteria route planning technique for operators to objectively determine the routes according to their intentions. In this study, the navigational traffic risk of a route is quantitatively assessed using a model of a ship. Then, a risk contour map is visualized by structuring the data as absolute danger, hazard factors, and influential factors, which is a framework for route planning. Finally, a multi-criteria route could be modeled by considering the safety, efficiency, convenience, and ability of navigation as the main criteria. The technique assesses each criterion by analyzing the cumulative risk per distance, distance, number of waypoints, and risk gradient of derived routes. In addition, the technique proposes routes by utilizing its algorithm and incorporating contour-based projection and reference points. To verify the proposed technique, we carried out numerical simulations and evaluated actual AIS data. The results show that this technique can not only suggest goal-oriented routes but also assess the used routes. Therefore, the proposed technique can improve the route planning method to be more systematic, which contributes both to smart navigation based on the user's purposes and to future autonomous navigation.},
+  note={Furture ocean technologists award}
+}
+
+@article{risk-assessment-hns,
+  abbr={JPNR},
+  bibtex_show={true},
+  author = {Mingi Jeong and and Moonjin Lee and Eun-Bang Lee},
+  title={A Study on Intuitive Technique of Risk Assessment for Route of Ships Transporting Hazardous and Noxious Substances},
+  journal={Journal of Navigation and Port Research},
+  issn={1598-5725},
+  year={2018},
+  volume={42},
+  number={2},
+  pages={97-106},
+  doi={http://dx.doi.org/10.5394/KINPR.2018.42.2.97},
+  abstract={Despite the development of safety measures and improvements in preventive systems technologies, maritime traffic accidents that involve ships carrying hazardous and noxious substances (HNS) continuously occur owing to increased amount of HNS goods transported and the growing number of HNS fleet. To prevent maritime traffic accidents involving ships carrying HNS, this study proposes an intuitive route risk assessment technique using risk contours that can be visually and quantitatively analyzed. The proposed technique offers continuous information based on quantified values. It determines and structures route risk factors classified as absolute danger, absolute factors, and influential factors within the assessment area. The route risk is assessed in accordance with the proposed algorithmic procedures by means of contour maps overlaid on electronic charts for visualization. To verify the effectiveness of the proposed route risk assessment technique, experimental case studies under various conditions were conducted to compare results obtained by the proposed technique to actual route plans used by five representative companies operating the model ship carrying HNS. This technique is beneficial not only for assessing the route risk of ships carrying HNS, but also for identifying better route options such as recommended routes and enhancing navigation safety. Furthermore, this technique can be used to develop optimized route plans for current maritime conditions in addition to future autonomous navigation application.}
+}
+
+
+@article{risk-assessment-hns,
+  abbr={JMES},
+  bibtex_show={true},
+  author = {Mingi Jeong and and Moonjin Lee and Eun-Bang Lee},
+  title={A Study on the Visualization of HNS Hazard Levels to Prevent Accidents at Sea in Real-Time},
+  journal={Journal of the Korean Society of Marine Environment & Safety},
+  issn={1229-3431},
+  year={2017},
+  volume={23},
+  number={3},
+  pages={242-249},
+  doi={http://10.7837/kosomes.2017.23.3.242},
+  abstract={In order to develop an HNS safety management system to assess and visualize hazard levels via an automated method, we have conceptualized and configured a sample system. It is designed to quantify the risk of a vessel carrying HNS with a matrix method along navigational route and indicate hazards distribution with a contour map. The basic system which provides a visualized degree of hazards in real time has been introduced for the safe navigation of HNS ships. This is useful not only for decision making and circumstantial judgment but may also be utilized for HNS safety management with a risk base. Moreover, this system could be extended to address the navigational safety of marine traffic as well as of autonomous vessels in the near future if the sensors used are connected with IoT technology.}
+}
+
+@article{patent-korea,
+  preview={patent-2020.jpg},
+  abbr={PATENT},
+  selected={true},
+  title={A Technique to Plan a Route Based on Risk Contour Mapping},
+  author = {Eun-Bang Lee and Mingi Jeong and and Moonjin Lee},
+  year={2020},
+  journal={10-2185782 Korea Patent}
+}
+
+@INPROCEEDINGS{iain-2018,
+  abbr={IAIN},
+  bibtex_show={true},
+  author = {Mingi Jeong and and Moonjin Lee and Eun-Bang Lee},
+  booktitle={Proceedings of International Association of Institutes of Navigation(IAIN) World Congress, Chiba, Japan}, 
+  title={A Purpose-Oriented Technique for Route Planning of Ships based on the Concept of Risk Isoline Curves}, 
+  __abstract={This study develops a new technique for an adaptive route plan that realizes autonomous navigation by surface vehicles at sea by utilizing real-time data. Prior to the application of the methodology, our technique assesses and visualizes maritime traffic risk as the foundation for the route planning of an Autonomous Surface Vehicles (ASVs). Based on the risk contour map and the ASV's data processing, the algorithm that proposes routes which match the desired objects according to the operator's input, was developed. This methodology was applied and evaluated for verification by planning adaptive routes and analyzing maritime traffic accidents as case studies. The results demonstrate that the technique is useful as it enables an ASV to quantitatively and automatically adapt its route to fit the real-time situation, and for applications to be further broadened to diverse areas.},
+  year={2018},
+  volume={},
+  number={},
+  __pages={1-4},
+  __doi={10.1109/OCEANS.2018.8604638}
+}
+
+@INPROCEEDINGS{herbei-2017,
+  abbr={MES},
+  bibtex_show={true},
+  author = {Mingi Jeong and and Moonjin Lee and Eun-Bang Lee},
+  booktitle={Proceedings of Hebei Spirit Oil Pollution International Conference (10 years of monitoring and the future), Incheon, Korea}, 
+  title={A Study on Optimal Route Plan of Ships Carrying HNS}, 
+  __abstract={This study develops a new technique for an adaptive route plan that realizes autonomous navigation by surface vehicles at sea by utilizing real-time data. Prior to the application of the methodology, our technique assesses and visualizes maritime traffic risk as the foundation for the route planning of an Autonomous Surface Vehicles (ASVs). Based on the risk contour map and the ASV's data processing, the algorithm that proposes routes which match the desired objects according to the operator's input, was developed. This methodology was applied and evaluated for verification by planning adaptive routes and analyzing maritime traffic accidents as case studies. The results demonstrate that the technique is useful as it enables an ASV to quantitatively and automatically adapt its route to fit the real-time situation, and for applications to be further broadened to diverse areas.},
+  year={2017},
+  volume={},
+  number={},
+  __pages={1-4},
+  __doi={10.1109/OCEANS.2018.8604638},
+  note={Best presentation paper award}
+}
+
+@INPROCEEDINGS{KINPR-2018,
+  abbr={KINPR},
+  bibtex_show={true},
+  author = {Mingi Jeong and and Moonjin Lee and Eun-Bang Lee and Jongwhi Yoon and Wonsoo Kang},
+  booktitle={Proceedings of Spring Annual Conference, Korean Institute of Navigation and Port Research, Jeju, Korea}, 
+  title={A Study on Object-oriented Route Design for Ships Carrying HNS}, 
+  __abstract={This study develops a new technique for an adaptive route plan that realizes autonomous navigation by surface vehicles at sea by utilizing real-time data. Prior to the application of the methodology, our technique assesses and visualizes maritime traffic risk as the foundation for the route planning of an Autonomous Surface Vehicles (ASVs). Based on the risk contour map and the ASV's data processing, the algorithm that proposes routes which match the desired objects according to the operator's input, was developed. This methodology was applied and evaluated for verification by planning adaptive routes and analyzing maritime traffic accidents as case studies. The results demonstrate that the technique is useful as it enables an ASV to quantitatively and automatically adapt its route to fit the real-time situation, and for applications to be further broadened to diverse areas.},
+  year={2018},
+  volume={},
+  number={},
+  __pages={1-4},
+  __doi={10.1109/OCEANS.2018.8604638},
+  note={Best presentation paper award}
+}
+
+
