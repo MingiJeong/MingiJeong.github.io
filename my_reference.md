@@ -28,5 +28,7 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch asset
 git push origin --force --all
 ```
 
+https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted
+
 ## removing footer
 `layout` `default` footer commented out
