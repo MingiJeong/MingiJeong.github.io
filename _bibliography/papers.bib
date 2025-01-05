@@ -28,13 +28,15 @@
   bibtex_show={true},
   selected={true},
   author={Jeong, Mingi and Chadda, Ari and Li, Alberto Quattrini},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Accepted and In press}, 
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={Active Learning-augmented Intention-aware Obstacle Avoidance of Autonomous Surface Vehicles in High-traffic Waters}, 
   year={2024},
   volume={},
   number={},
+  doi={10.1109/IROS58592.2024.10802205},
   abstract={This paper addresses the obstacle avoidance of Autonomous Surface Vehicles (ASVs) for safe navigation in high-traffic waters while ensuring an active state estimation of obstacle's passing intent and reducing its uncertainty. We introduce a topological modeling of passing intent of obstacles, which can be applied to varying encounter situations based on the inherent embedding of topological concepts in COLREGs. With a Long Short-Term Memory (LSTM) neural network, we classify the passing intent of obstacles. Then, for determining the ASV maneuver, we propose a multi-objective optimization framework including information gain about the passing obstacle intent and safety. We validate the proposed approach under extensive Monte Carlo simulations (2,400 runs) with a varying number of obstacles, dynamic properties, encounter situations, and different behavioral patterns of obstacles (cooperative, non-cooperative). We also present the results from a real marine accident case study as well as real-world experiments of a real ASV with environmental disturbances, showing successful collision avoidance with our strategy in real-time.},
   video = {https://youtu.be/0W0d4MurzzA?si=leq1USl2cAtsgqzi},
+  code={https://github.com/dartmouthrobotics/passing_intention_lstm}
 }
 
 % autonomous robot
@@ -49,6 +51,30 @@ preview={auro-track.gif},
   year={2024},
   volume={},
   number={},
+}
+
+% catabotsim
+@INPROCEEDINGS{catabot-sim-2024,
+  preview={catabotsim.gif},
+  abbr={IRC},
+  bibtex_show={true},
+  selected={false},
+  author={Silva-Sassaman, Dinithi and Jeong, Mingi and Sassaman, Paul and Wu, Zitong and Li, Alberto Quattrini},
+  booktitle={2024 Eighth IEEE International Conference on Robotic Computing (IRC)}, 
+  title={CataBotSim: A Realistic Aquatic Simulator for Autonomous Surface Vehicle Testing}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={202-209},
+  keywords={Measurement;Rain;Laser radar;Navigation;Operating systems;Robot vision systems;Pipelines;Sensors;Vehicle dynamics;Testing;autonomous surface vehicles simulator;simulated lidar;simulated radar;rain disturbance},
+  doi={10.1109/IRC63610.2024.00043},
+  abstract={While there are many self-driving car simulators, there is a general lack of high-fidelity aquatic simulators that allow testing perception and navigation pipelines for autonomous surface vehicles (ASVs). 
+  We present an open source, user friendly, and realistic Unity3D-based aquatic simulator for ASVs, called CataBotSim, which includes support for multiple ASV models, on-board sensors, such as LiDAR, Marine Radar, IMU, GPS, and cameras, as well as a number of different objects that can act as static or dynamic obstacles. 
+  To achieve high-fidelity simulations, we incorporated environmental effects like rain, currents, and wind, which impact sensor measurements and/or ASV motions as observed in real-world environments. We included interfacing with the Robot Operating System (ROS). 
+  We also provided tools to generate real-world scenes, create datasets, record navigation metrics, and provide ground truth perception data to ease robotic simulation experiments. The project code for the CataBotSim can be found at https://github.com/dartmouthrobotics/catabot_unity/. 
+  A demonstration video of CataBotSim is available at https://youtu.be/Rgfkm352ho4.},
+  video = {https://youtu.be/Rgfkm352ho4?si=I9jV8pAomMjBawBk},
+  code= {https://github.com/dartmouthrobotics/catabot_unity/}
 }
 
 % deontic logic paper
