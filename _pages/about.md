@@ -6,7 +6,7 @@ subtitle: <b>Affiliations</b>. Reality and Robotics Lab, Department of Computer 
 
 profile:
   align: right
-  image: mingi-half.jpg
+  image: mingi.jpg
   image_circular: false # crops the image to make it circular
   address: >
     Curriculum Vitae <a href="https://MingiJeong.github.io/assets/pdf/Mingi_Jeong_CV.pdf"><i class="fas fa-file-pdf"></i></a>
@@ -29,6 +29,16 @@ By utilizing my professional background and skill-set obtained from a fulfilling
 
 <!-- I am mainly focuses on marine autonomy by surface vehicles. I study design platform, situational awareness, and obstacle avoidance algorithms of robotic boats through __interdisciplinary research__ to contribute to safe and efficient autonomous navigation in real-world environments.  -->
  
+<div style="clear: both;"></div>
+<div style="border: 2px solid purple; border-radius: 10px; padding: 15px; background-color: #f9f1ff; margin-top: 20px;">
+  <p style="color: purple; margin: 0;">
+    🎉 I am honored to join 
+    <a href="https://www.aoe.vt.edu/" target="_blank">Virginia Tech Aerospace and Ocean Engineering Department</a> 
+    as a <strong><em>tenure-track assistant professor </em></strong> from December 2025. <br>
+    I am hiring highly motivated Ph.D. students who want to pursue cool research with me. Feel free to contact me at 
+    <a href="mailto:mingi.jeong.gr@dartmouth.edu">mingi.jeong.gr@dartmouth.edu</a>.
+  </p>
+</div>
 
 <h2><b>Research Interest </b></h2>
 
@@ -48,6 +58,7 @@ I am passionate about investigating:
 * Optimized design and building
 
 <!-- Marine Robot, Full stack autonomy, Autonomous navigation, Autonomous Surface Vehicle, In-water obstacle detection and tracking, Obstacle avoidance, Topological (homotopy) planning, Intention-aware collision avoidance, Learning-augmented planner, Multi-robot system, Multi-criteria decision-making, Pareto-optimality, Environmental monitoring, Optimized design and building, Reliance-aware sensor fusion_ -->
+
 
 
 
