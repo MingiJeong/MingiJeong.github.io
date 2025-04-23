@@ -30,7 +30,7 @@ By utilizing my professional background and skill-set obtained from a fulfilling
 <!-- I am mainly focuses on marine autonomy by surface vehicles. I study design platform, situational awareness, and obstacle avoidance algorithms of robotic boats through __interdisciplinary research__ to contribute to safe and efficient autonomous navigation in real-world environments.  -->
  
 <div style="clear: both;"></div>
-<div style="border: 2px solid purple; border-radius: 10px; padding: 15px; background-color: #f9f1ff; margin-top: 20px;">
+<div style="border: 2px solid purple; border-radius: 10px; padding: 15px; background-color: #f9f1ff; margin-top: 20px; margin-bottom: 20px;">
   <p style="color: purple; margin: 0;">
     🎉 I am honored to join 
     <a href="https://www.aoe.vt.edu/" target="_blank">Virginia Tech Aerospace and Ocean Engineering Department</a> 
