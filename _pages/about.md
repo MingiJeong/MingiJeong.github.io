@@ -6,7 +6,7 @@ subtitle: <b>Affiliations</b>. Reality and Robotics Lab, Department of Computer 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mingi-half.jpg
   image_circular: false # crops the image to make it circular
   address: >
     Curriculum Vitae <a href="https://MingiJeong.github.io/assets/pdf/Mingi_Jeong_CV.pdf"><i class="fas fa-file-pdf"></i></a>
