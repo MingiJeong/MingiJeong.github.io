@@ -43,12 +43,17 @@ layout: default
           {% if page.research %}
             {% include research.html %}
           {% endif %}
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
+          
+          <!-- field works -->
+          {% if page.field_works -%}
+            {%- include field_works.html %}
           {%- endif %}
+          <!-- News -->
+          {% if page.news -%}
+            {%- include news.html %}
+          {%- endif %}
+          <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
 

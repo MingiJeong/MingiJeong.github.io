@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 honors: true # includes honors (if true)
 scholarships: true
 research: true # include projects
-
+field_works: true # include field works
 ---
 
 I am Mingi Jeong, and I would like to be an enthusiastic, devoted expert in __Computer Science (Robotics)__, __Artificial Intelligence__ and __Ocean Engineering__ who will contribute to global society. 
@@ -58,9 +58,4 @@ I am passionate about investigating:
 * Optimized design and building
 
 <!-- Marine Robot, Full stack autonomy, Autonomous navigation, Autonomous Surface Vehicle, In-water obstacle detection and tracking, Obstacle avoidance, Topological (homotopy) planning, Intention-aware collision avoidance, Learning-augmented planner, Multi-robot system, Multi-criteria decision-making, Pareto-optimality, Environmental monitoring, Optimized design and building, Reliance-aware sensor fusion_ -->
-
-
-
-
-
 
