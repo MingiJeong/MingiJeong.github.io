@@ -36,7 +36,7 @@ By utilizing my professional background and skill-set obtained from a fulfilling
     <a href="https://www.aoe.vt.edu/" target="_blank">Virginia Tech Aerospace and Ocean Engineering Department</a> 
     as a <strong><em>tenure-track assistant professor </em></strong> from December 2025. <br>
     I am hiring highly motivated Ph.D. students who want to pursue cool research with me. Feel free to contact me at 
-    <a href="mailto:mingi.jeong.gr@dartmouth.edu">mingi.jeong.gr@dartmouth.edu</a>.
+    <a href="mailto:mingijeong@vt.edu">mingijeong@vt.edu</a>.
   </p>
 </div>
 
