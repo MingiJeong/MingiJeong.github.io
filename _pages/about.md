@@ -2,7 +2,7 @@
 layout: about
 title: about # show the first word as capital (if changes)
 permalink: /
-subtitle: <b>Affiliations</b>. Reality and Robotics Lab, Department of Computer Science, Dartmouth College, USA
+subtitle: <b>Affiliations</b>. Assistant Professor, Department of Aerospace and Ocean Engineering, Virginia Tech, USA
 
 profile:
   align: right
@@ -22,7 +22,7 @@ field_works: true # include field works
 
 I am Mingi Jeong, and I would like to be an enthusiastic, devoted expert in __Computer Science (Robotics)__, __Artificial Intelligence__ and __Ocean Engineering__ who will contribute to global society. 
 
-I am a Ph.D. candidate of the Department of Computer Science at [Dartmouth College](https://home.dartmouth.edu/), USA. I am a member of [Reality and Robotics Lab](https://rlab.cs.dartmouth.edu/home/) and am working with [Prof. Alberto Quattrini Li](https://rlab.cs.dartmouth.edu/albertoq/). Before that, I served on ocean-going commercial vessels (LNG tanker, container vessel) for 5 years as a __Chief Officer__ (final rank) in [Hyundai Merchant Marine Co.,Ltd.](http://www.hmm21.com/cms/company/engn/index.jsp) under the connected service with the Korean Navy. I received a B.S in Nautical Science and a M.E in Maritime Safety Engineering from [Korea Maritime and Ocean University](https://www.kmou.ac.kr/english/main.do), working with [Prof. Eunbang Lee](https://www.kmou.ac.kr/mp/cm/cntnts/cntntsView.do?mi=2062&cntntsId=701). During a cadet period, I was an exchange student and Indoctrination Officer (IDO) in [SUNY Maritime College](https://www.sunymaritime.edu/) as the U.S. Coast Guard licensing regimental system, fully sponsored by [Rotary International](https://www.rotary.org/en)'s Ambassadorial scholar.
+I am an Assistant Professor at Kevin T. Crofton Department of Aerospace and Ocean Engineering at [Virginia Tech](https://www.vt.edu/), USA. I received the Ph.D.degree from the Department of Computer Science at [Dartmouth College](https://home.dartmouth.edu/), USA. I was a member of [Reality and Robotics Lab](https://rlab.cs.dartmouth.edu/home/) and was working with [Prof. Alberto Quattrini Li](https://rlab.cs.dartmouth.edu/albertoq/). Before that, I served on ocean-going commercial vessels (LNG tanker, container vessel) for 5 years as a __Chief Officer__ (final rank) in [Hyundai Merchant Marine Co.,Ltd.](http://www.hmm21.com/cms/company/engn/index.jsp) under the connected service with the Korean Navy. I received a B.S in Nautical Science and a M.E in Maritime Safety Engineering from [Korea Maritime and Ocean University](https://www.kmou.ac.kr/english/main.do), working with [Prof. Eunbang Lee](https://www.kmou.ac.kr/mp/cm/cntnts/cntntsView.do?mi=2062&cntntsId=701). During a cadet period, I was an exchange student and Indoctrination Officer (IDO) in [SUNY Maritime College](https://www.sunymaritime.edu/) as the U.S. Coast Guard licensing regimental system, fully sponsored by [Rotary International](https://www.rotary.org/en)'s Ambassadorial scholar.
 
 
 By utilizing my professional background and skill-set obtained from a fulfilling Chief Mate position on board, I hope to be a dedicated researcher in the __autonomous navigation__ area by developing cutting-edge technologies, and being equipped with outstanding knowledge through __interdisciplinary research__.
