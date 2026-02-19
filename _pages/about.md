@@ -26,17 +26,17 @@ I am an Assistant Professor at Kevin T. Crofton Department of Aerospace and Ocea
 
 
 By utilizing my professional background and skill-set obtained from a fulfilling Chief Mate position on board, I hope to be a dedicated researcher in the __autonomous navigation__ area by developing cutting-edge technologies, and being equipped with outstanding knowledge through __interdisciplinary research__.
-
-<!-- I am mainly focuses on marine autonomy by surface vehicles. I study design platform, situational awareness, and obstacle avoidance algorithms of robotic boats through __interdisciplinary research__ to contribute to safe and efficient autonomous navigation in real-world environments.  -->
  
 <div style="clear: both;"></div>
 <div style="border: 2px solid purple; border-radius: 10px; padding: 15px; background-color: #f9f1ff; margin-top: 20px; margin-bottom: 20px;">
   <p style="color: purple; margin: 0;">
     🎉 I am honored to join 
     <a href="https://www.aoe.vt.edu/" target="_blank">Virginia Tech Aerospace and Ocean Engineering Department</a> 
-    as a <strong><em>tenure-track assistant professor </em></strong> from December 2025. <br>
+    as a <strong><em>tenure-track assistant professor. </em></strong> <br>
     I am hiring highly motivated Ph.D. students who want to pursue cool research with me. Feel free to contact me at 
     <a href="mailto:mingijeong@vt.edu">mingijeong@vt.edu</a>.
+    Here is <a href="https://docs.google.com/document/d/1aIF9f5r3yk5tzEc-Q4u_c1F0p69a1ApKt0qT0AmmA9k/edit?usp=sharing" target="_blank"> 
+    my philosophy for mentoring students. </a>
   </p>
 </div>
 
@@ -44,18 +44,25 @@ By utilizing my professional background and skill-set obtained from a fulfilling
 
 How can we create ***persistent and robust robot decision-making systems*** capable of functioning in ***complex, unstructured environments*** where intelligent systems can have a profound societal impact in areas such as environmental monitoring, search and rescue, and cargo or passenger transportation? 
 
-I am passionate about investigating:
+I’m especially interested in:
+* __Aquatic autonomy__: autonomous vehicles and field robotics in real-world conditions
+* __Active perception__: robots that adapt sensing and viewpoints to reduce uncertainty and improve safety
+* __Full-stack robotic decision-making__: algorithm and system validated in the field
+* __Safe navigation around dynamic agents__: detection, tracking, and collision avoidance under uncertainty
+* __Multi-robot & mission-level autonomy__: coordinated search, monitoring, and long-horizon operation with topological and multi-objective algorithm
+
+<!--
 * Aquatic Robot
 * Full stack autonomy
-* Autonomous navigation
 * Obstacle detection and tracking
 * Obstacle avoidance
+* Autonomous navigation
 * Topological planning
 * Intention-aware collision avoidance, Learning-augmented planner
 * Multi-criteria decision-making, Pareto-optimality
 * Multi-robot system
 * Environmental monitoring
-* Optimized design and building
+* Optimized design and building -->
 
 <!-- Marine Robot, Full stack autonomy, Autonomous navigation, Autonomous Surface Vehicle, In-water obstacle detection and tracking, Obstacle avoidance, Topological (homotopy) planning, Intention-aware collision avoidance, Learning-augmented planner, Multi-robot system, Multi-criteria decision-making, Pareto-optimality, Environmental monitoring, Optimized design and building, Reliance-aware sensor fusion_ -->
 

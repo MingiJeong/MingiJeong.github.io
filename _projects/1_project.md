@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multi-modal Maritime Perception Dataset
+title: Multi-modal Maritime Perception 
 description: SeePerSea -- Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles
 img: assets/img/dataset/t-fr-busan.gif
 importance: 1
@@ -57,3 +57,8 @@ and marine (field) robotics.
 <div class="caption">
     Folder structure of our dataset
 </div>
+
+<p style="text-align: center;">
+<!-- youtube embedding -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vKewY-BHckk?si=wRTf4DxYz-ZmBVOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>

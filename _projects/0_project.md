@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intention-aware Collision Avoidance
+title: Intention-aware action
 description: Active Learning-augmented Intention-aware Obstacle Avoidance of Autonomous Surface Vehicles in High-traffic Waters
 img: assets/img/intent-aware/intent-cover2.gif
 importance: 1
